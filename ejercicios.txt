@@ -1,0 +1,178 @@
+Hola Mogollan tu misión si decides aceptarla es resolver una serie de ejercicios de programación, después de estos retos,
+No volveras hacer el mismo.
+
+REGLAS:
+1. Se debe comentar el código en Ingles
+2. El formato de los resultados debe ser de dos decimales siempre
+3. las variables deben seguir el standar (No se aceptan nombres que inicien como UpperCase, No se aceptan nombres cortos como "b" o alguna letra)
+4. Las variables fijas deben ser definidas al inico del codigo como (PI)
+
+
+
+Bonne Chance mon ami!
+
+
+
+Ejercicios miscelania 1:
+
+
+Ejercicio 1: Calcular longitud y área de la circunferencia y el volumen de la esfera
+Ejercicio 2: que dos numeros y muestre el suma, resta, multiplicacion y divison y mod.
+Longitud de la circunferencia = 2*PI*Radio
+Area de la circunferencia = PI*Radio^2
+Volumen de la esfera = (4/3)*PI*Radio^3
+
+Ejercicio 3. Que lea muestre el area del radio de acuerdo a el radio leido. a=r2*pi
+Ejercicio 4. Que  muestre el area del un rectangulo. 
+Ejercicio 5. Que  muestre el area del un trianglo rectangulo
+6. Que lea la cantidad de horas trabajadas por un empleado el valor de la hora trabajada y el valor a pagar
+6. Que lea el valor de hora trabajada en cada dia, el valor de la hora. En tres dias. Muestre el valor total a pagar, 
+cantidad total de horas, valor a pagar en cada dia.
+7. leer el sueldo mensual de un empleado y muestre. sueldo quincenal, sueldo semanal, sueldo diario, sueldo hora 
+y sueldo minuto y sueldo segundo. el valor leido del sueldo. esta en Dolares, mostrarlo en euros y en pesos colombianos. 
+8. leer cinco notas de un estdiante y mostrar la sumatoria y promedio de las notas.
+9. leer la cantidad de productos, el valor unitario, descuentos puede ser cero y mostrar subtotal(cantidad * valorUnitario)
+   valor del descuento y valor a pagar.
+10. leer una distancia en metros y mostrarla en Kilometros, decimetros, centimetros, milimetros, pies y pulagadas
+11. Crear un programa que lea una temperatura en grados celsius y la muestre en grados Fahrenheit
+    f=9/5C + 32
+12. Crear un programa que calcule el area de un triangulo en funcion de las longitudes de us lados
+   a=raizcuadrada((p(p-a)(p-b)(p-c)). donde p=(a+b+c)/e : p=semiperimetro.
+13. crear un programa que muestre el la hipetenusa de un trinagulo rectangulo cocidas las longitudes de us catetos.
+
+
+
+
+
+AHORA SI VIENE LO BUENO:
+
+/*************************
+
+Crear un programa en python que lea el nombre, el año de nacimiento y el año actual de dos 
+personas. Se debe mostrar el nombre y la edad de cada una de las personas en años, meses, días , minutos 
+y segundos y el promedio de edades en años. Todos los meses son de 30 días.
+
+
+/***********************************
+
+El valor de las entradas a una sala de Cine Colombia es variable de acuerdo al 
+horario de la funcion Se debe solicitar el valor de la entrada. 
+Los días Martes, se aplica un descuento del 30%. Adicionalmente, 
+para usuarios con tarjeta Cineco_1 se aplica un descuento adicional 
+del 10% y con Cineco_2 20%. El dia martes Luis, Maria y Paola van a cine.
+Luis y Maria tienen tarjeta Cineco_ 1 y Paola tiene tarjeta Cineco_2. 
+Cineco.  
+
+Se desea crear un programa en python que muestre: 
+El nombre de cada uno, el valor de entrada, los descuentos de cada uno y 
+total a pagar por cada uno. 
+
+Total descuentos, total de las entradas y total a pagar. de todos.  
+
+
+/************************************
+
+
+La princesa Dido tuvo que huir de Roma, perseguida por su propio hermano, y terminó por refugiarse en la 
+    costa norte de África, donde le pidió a un rey local que le cediera un terreno en el cual ella pudiera vivir. 
+    El rey, con la oportunidad de humillar a una princesa extranjera, accedió a entregarle el terreno que ella deseara, 
+    siempre y cuando no fuera mayor a lo abarcado por la piel de un buey. La princesa accedió a la extraña propuesta,
+    y el rey le hizo entregar la piel de buey, ofreciéndose acompañarla para oficializar la entrega del terreno.
+
+    Cuál sería su sorpresa cuando la princesa tomó la piel y la cortó en trozos de un milímetro de ancho,
+    formando una larga cuerda con la que trazó un círculo gigantesco. Después del curioso trato,
+    el rey no tuvo otra opción más que entregarle el terreno, y así fundó la ciudad de Cartago.
+
+Descripción de la Entrada: 
+    Su programa debe capturar las dimensiones (largo y ancho, en metros) 
+    de la piel de buey –que vamos a asumir cuadrada. Tenga en cuenta que los números de entrada pueden tener 
+    decimales, en cuyo caso el separador de decimales será el punto (“.”). 
+
+Descripción De La Salida: 
+    La salida en consola será el área total, en kilómetros cuadrados que puede abarcar Dido con la piel de buey ingresada,
+    asumiendo que la divide en tiras de un milímetro de grosor para formar una cuerda, y que con esa cuerda forma un 
+    círculo perfecto.
+    Sólo es necesario un número, no es necesario que especifique que se trata de kilómetros cuadrados
+
+
+    /****************************************
+
+Un obrero sembrador de maíz, al final del dia le informar al capataz, el largo y ancho en metros
+de maíz sembrado en ese dia. El capataz al final de la semana le entrega un reporte al obrero
+de los días trabajados, largo y ancho, metros cuadrados (cada metro cuadrado se le paga a $5000). 
+Si el obrero trabaja el día domingo se le da una bonificación del 20 por este día. (los otros días no tienen bonificación). y le entrega el total de dinero por concepto del trabajo de esta semana. Esta semana el obrero trabajo lunes, viernes y domingo.  
+Se debe crear un programa: Con:
+
+Entrada de datos:
+Nombre del obrero: Juan
+Dia Lunes = Largo 5  
+Dia Lunes = Ancho 6  
+          
+Dia Viernes = Largo 6  
+Dia Viernes = Ancho 6
+
+Dia Domingo = Largo 8  
+Dia Domingo = Ancho 5
+ 
+
+Salida de datos :
+
+Nombre del obrero: Juan 
+
+Dia: Lunes:   [Largo 5 Ancho 6] Metros Cuadrados 30. Subtotal      $150000.00  
+     viernes: [Largo 6 Ancho 6] Metros Cuadrados 36. Subtotal      $180000.00
+     Domingo: [Largo 8 Ancho 5] Metros Cuadrados 40. Subtotal      $200000.00
+                                                     Bonificación  $ 40000.00
+                                                     Total a Pagar $570000.00
+   
+     Total Metros Cuadrados = 106  
+           Kilom            = 0.106
+           Cmts             = 10600
+           Milim            = 106000  
+  
+ Nota: la salida de los subtotales deben aparecer con dos cifras deciames.       
+
+
+
+
+
+******************************************RETO 1 FINAL***************************************
+
+Reto 1: Cuentas sobre el salario
+
+Un grupo de empleados desea conocer a cuánto dinero equivalen los descuentos de nómina exigidos por la ley en relación con los pagos que la empresa para la que trabaja le realizan mensualmente. Se ha firmado un contrato que le permite trabajar 50 horas semanales. Con el propósito de verificar el valor total de los descuentos han decidido construir un programa en Python que le permita verificar el valor de sus salarios antes y después de realizar los descuentos a la nómina. Después de consultar sobre la normatividad y revisar con detalle sus contratos laborales nota que debe tener en cuenta los siguientes aspectos:
+
+El valor de una hora de trabajo normal se obtiene dividiendo el salario base sobre 190.
+Las horas extras se liquidan con un recargo del 45% sobre el valor de una hora normal.
+Debido a buen desempeño de un empleado la empresa ocasionalmente otorga bonificaciones de 3.5% del salario base.
+El salario total antes de descuentos se calcula como la suma del salario base, más el valor de las horas extras, más las bonificaciones (si las hay).
+Se descontará 6.5% del salario total antes de descuentos para el plan obligatorio de salud.
+Se descontará 5% del salario total antes de descuentos para el aporte a pensión.
+Se descontará 4% del salario total antes de descuentos para caja de compensación.
+
+Luego de considerar toda esta información, el empleado decide construir un programa que permita a cualquier empleado de la empresa verificar si los pagos son correctos.
+
+Entrada	El programa recibirá 3 parámetros:
+El salario base del empleado.
+La cantidad de horas extras se representa a través de un número entero positivo. En caso de no realizar horas extras durante el mes, se ingresará el valor 0.
+Si hubo bonificaciones se ingresará el valor 1, de lo contrario el valor 0.
+Salida	El programa debe imprimir 2 valores:
+El valor a pagar al empleado luego de realizar los descuentos de ley. El resultado debe imprimirse con un número decimal.
+El salario total del empleado antes de descuentos. El resultado debe imprimirse con un número decimal.
+
+
+Dificultad
+Instrucciones
+Instrucciones para la calificación automática
+
+Antes de enviar la solución del reto, por favor tenga en cuenta los siguientes aspectos:
+Cada caso de prueba se especifica en una única línea.
+Cada línea debe contener los valores de los parámetros separados por un espacio.
+Es importante no utilizar ningún mensaje a la hora de capturar las entradas, es decir, al utilizar la función input()no agregue ningún texto para capturar los datos.
+Como ejemplo considere el caso de prueba 1000000 0 0, el cual corresponde a un trabajador con una salario base de 1000000 con 0 horas extras y sin bonificaciones.
+El resultado debe imprimirse con un número decimal.
+Casos de prueba
+Entradas de ejemplo	1000000 0 0
+2355255 2 1
+Salida de ejemplo	845000.0 1000000.0
+2090223.7 2473637.6
