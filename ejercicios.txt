@@ -13,7 +13,7 @@ Bonne Chance mon ami!
 
 
 
-Ejercicios miscelania 1:
+Ejercicios miscelania 1:+
 
 
 Ejercicio 1: Calcular longitud y área de la circunferencia y el volumen de la esfera
