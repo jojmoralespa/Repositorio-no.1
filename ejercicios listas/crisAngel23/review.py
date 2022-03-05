@@ -5,8 +5,6 @@ from operator import le
 from os import sep
 
 
-
-
 try:
     number = int(input("Ingrese el número de la loteria: "))
 except NameError:
@@ -28,6 +26,7 @@ for i in range(len(numberList)):
            numberList[j] = str(numeroAux)
         
 print(*numberList)
+
 
 
 
