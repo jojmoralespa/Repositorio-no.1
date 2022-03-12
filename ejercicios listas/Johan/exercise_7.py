@@ -15,3 +15,34 @@ for letter in list_copy:
 
 print(*list_alphabet, sep = " ")
 
+for i in range(len(list_copy)-1,-1,-1):
+        if (i+1) % 3 ==0:
+                list_copy.pop(i)
+
+print(*list_copy, sep = " ")
+
+lst =[1,2]
+for v in range(2):
+        lst.insert(-1,lst[v])
+
+print(lst)
+print(range(5))
+
+del lst[:]
+print(lst)
+
+x = 2%1
+
+print(x)
+
+dtc = {}
+dtc['1']=(1,2)
+dtc['2']=(2,1)
+
+for x in dtc.keys():
+        print(dtc[x][1],end = "")
+
+x = 'hello'
+y = 'there'
+
+print(x + y)
