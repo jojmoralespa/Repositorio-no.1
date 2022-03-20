@@ -16,13 +16,9 @@ for element in element_list:
 def reverse(i,j,list_aux):
     if j != len(list_aux)-1:
         list_1 = list_aux[:j+1]
-        list_2 = list_aux[j+1:]
         count = i
         for n in range(len(list_1)-1,i-1,-1):
             list_aux[count] = list_1[n]
-            count += 1
-        for n in range(len(list_2)-1,-1,-1):
-            list_aux[count] = list_2[n]
             count += 1
         return list_aux
     else:
