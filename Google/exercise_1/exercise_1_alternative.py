@@ -1,6 +1,6 @@
 #Read txt
 
-handle = open("D:\\Users\\Johan\\Desktop\\Proyecto\\Google\\test_set_1\\ts1_input.txt")
+handle = open("sample_ts1_input.txt")
 element_list = list()
 
 for line in handle:
