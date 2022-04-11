@@ -49,7 +49,7 @@ for i  in range (t):
     #print(f"Case #{i+1}: {}")
 
 print(cases(n,point_index))
-print(reverse(1,))
+
 
 def array_dict(n, funValue , pointIndex):
     dic = dict()

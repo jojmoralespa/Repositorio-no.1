@@ -8,21 +8,22 @@ def int_nums(list):
 def print_3d(print1,print2,print3):
     ink_min = 0
     min_list = list()
+    million = 1000000
     for i in range(4):
         minimum_i_list = (print1[i],print2[i],print3[i])
         min_i = min(minimum_i_list)
         ink_min += min_i
         min_list.append(min_i)
-    if ink_min < 1000000:
+    if ink_min < million:
         print('IMPOSSIBLE')
-    elif ink_min == 1000000:
+    elif ink_min == million:
         print(*min_list, sep = ' ')
     else:
         ink_values = list()
         for i  in range(4):
-            new_value = (min_list[i]*1000000)//ink_min
+            new_value = (min_list[i]*million)//ink_min
             ink_values.append(new_value)
-        rest = 1000000 - sum(ink_values)
+        rest = million - sum(ink_values)
         ink_values[ink_values.index(max(ink_values))] += rest
         print(*ink_values, sep = ' ')
         
